@@ -33,12 +33,27 @@ var GetAllUsers = React.createClass({
 		console.log(this.state.arrOfUsers);
 		var render = this.state.arrOfUsers.map(function(users, i){
 			return <DisplayAllUsers key={i} usersObj={users}/>
-		})
-		return(
+		});
+
+		if(this.state.arrOfUsers.length > 0){
+			return	(
 			<div className="container">
+				<h1 id="header">Ask Anything.</h1>
+				<h2 id="project">Which project management software are we using?</h2>
+				<h3 id="message">You have <span id="number">15</span> unaswered quesions</h3>
+				<hr />
 				{render}
 			</div>
-		)
+			)
+
+		} else {
+		
+			return	(
+				<div>
+					<div className="loader"></div>
+				</div>
+			)
+		}
 	}
 });
 

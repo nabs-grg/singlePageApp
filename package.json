@@ -1,0 +1,22 @@
+{
+  "name": "singlepageapp",
+  "version": "1.0.0",
+  "description": "**API Source: https://jsonplaceholder.typicode.com**",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WeRaise/SinglePageApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WeRaise/SinglePageApp/issues"
+  },
+  "homepage": "https://github.com/WeRaise/SinglePageApp#readme",
+  "dependencies": {
+    "express": "^4.15.0"
+  }
+}

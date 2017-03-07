@@ -1,11 +1,11 @@
 var React = require('react');
 
 var Data = require('../../api/jsonPlaceholderAPI.js');
-var GetUsers = Data.GetUsers();
+var GetUsers = Data.getUsers();
 
 var DisplayAllUsers = require('./DisplayAllUsers.js');
 
-console.log(Data.GetUsers());
+//console.log(Data.getUsers());
 
 var GetAllUsers = React.createClass({
 

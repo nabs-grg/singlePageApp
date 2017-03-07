@@ -10,7 +10,7 @@ var Main = React.createClass({
 		return(
 			<div>
 				<Header />
-				<div id="center">
+				<div id="container">
 					{this.props.children}
 				</div>
 			</div>

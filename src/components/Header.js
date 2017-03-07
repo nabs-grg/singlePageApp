@@ -13,7 +13,7 @@ var Header = React.createClass({
 				    <ul className="nav navbar-nav navbar-right">
 				      <li><a href="#">Download App</a></li>
 				      <li><a href="#">Team View</a></li>
-				      <li><a href="#" id="select-nav">Collobos Foundation</a></li>
+				      <li><a href="#" id="select-nav">SPA Foundation</a></li>
 				      <li><a href="#" id="select-img"><img src="https://ict4kids.files.wordpress.com/2013/05/mrc-2.png" id="avatar"/></a></li>
 				      <li><a href="#">Narbu</a></li>
 				    </ul>

@@ -27,7 +27,7 @@ h1#header {
 	//border-bottom: 6px solid black;
 }
 
-div.container {
+div#container {
 	width: 960px;
 	margin: 0 auto;
 }
@@ -81,6 +81,21 @@ div.container {
 		padding-bottom: 10px;
 		border-bottom: 2px solid #F8BDDE;
 	}
+}
+
+.post-card {
+	width: 450px;
+	float: left;
+	height: 400px;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-style: solid;
+	@include border-radius($primary-padding);
+	margin-bottom: 20px;
+	padding: 10px;
+	color: $primary-color;
+	background-color: white;
+	border-color: #ccffcc;
 }
 
 .link-to-users {

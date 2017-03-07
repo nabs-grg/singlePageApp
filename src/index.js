@@ -11,6 +11,7 @@ var browserHistory = require('react-router').browserHistory;
 //components
 var GetAllUsers = require('./components/GetAllUsers.js');
 var Main = require('./components/Main.js');
+var GetUserPost = require('./components/GetUserPost.js');
 
 //scss
 require('../public/style.scss');
@@ -19,6 +20,7 @@ ReactDOM.render((
 	<Router history={browserHistory}>
 		<Route path="/" component={Main}>
 			<IndexRoute component={GetAllUsers} />
+			<Route path="/users/:userId" component={GetUserPost}/>
 		</Route>
 	</Router>
 	),document.getElementById('app'),function(){
